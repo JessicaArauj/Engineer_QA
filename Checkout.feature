@@ -29,3 +29,4 @@
             | "jessica" | "teixeira araujo" | "Brasil" | "Passagem A, nº 00" | " Teste" | "60821-354" | "(21)98161-8930" | "jessicateixeiraaraujo@gmail.com" | "Pedido efetuado com sucesso"|
             | "jessica" | "teixeira araujo" | "Brasil" | "Passagem A, nº 00" | " Teste" | "60821-354" | "(21)98161-8930" | "jessicateixeiraaraujogmail.com" | "E-mail inválido"|
             | "jessica" | "teixeira araujo" | "Brasil" | "Passagem A, nº 00" | " Teste" | "60821-354" | "  " | "jessicateixeiraaraujo@gmail.com" | "Para a finalização do pedido deve-se preencher corretamente os campos obrigátorios indicados por asteristico acima"|
+            
