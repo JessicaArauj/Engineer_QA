@@ -36,3 +36,4 @@
             | "Blue" | " " | "5" | "Erro ao inserir produto no carrinho. Verifique a seleção do tamanho produto"|
             | "Blue" | "L" | "" | "Erro ao inserir produto no carrinho. Verifique a quantidade do produto."|
             
+            
