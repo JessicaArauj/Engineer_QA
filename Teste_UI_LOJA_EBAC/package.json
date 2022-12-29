@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/JessicaTeixeiraAraujo/Profissional_Engenheiro_Da_Qualidade_De_Software#readme",
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "cypress": "^12.2.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
   }
 }
