@@ -3,7 +3,7 @@
 context('Funcionalidade Acesso', () => {   // bloco de função 
 
     beforeEach(() => {                                                 //Hook com a função de visitar (rodar) a página, banco de dados e afins
-        cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')     //A ação será realizada antes de cada caso de teste
+        cy.visit('minha-conta')     //A ação será realizada antes de cada caso de teste
     });
 
     afterEach(() => {   // Limpa o armazenamento de dados no teste. No caso do cypress ele ja possui essa funcionalidade e não é necessário adicioná-la.
