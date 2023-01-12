@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+import enderecoPage from '../support/page-objects/endereco.page'
 
 describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
     before(() => {
@@ -8,7 +9,8 @@ describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
         })
         
     });
-    it('Deve fazer cadastro de faturamento com sucesso', () => {
-        
+    it.only('Deve fazer cadastro de faturamento com sucesso', () => {
+        enderecoPage.editarEnderecoFaturamento()
+
     });
 });
