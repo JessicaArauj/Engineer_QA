@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+
 import enderecoPage from '../support/page-objects/endereco.page'
 
 describe('Funcionalidade Endereços - Faturamento e Entrega', () => {
