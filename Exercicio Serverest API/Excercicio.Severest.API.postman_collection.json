@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "6d207d3c-050d-4fc5-b05b-0ca5b11d6cd4",
+		"name": "Excercicio Severest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26508418"
+	},
+	"item": [
+		{
+			"name": "Listar usuários",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Listar usuários\", function () { // validar caminho feliz\r",
+							"    pm.expect(pm.response.text()).to.include(\"quantidade\");\r",
+							"});\r",
+							"pm.test(\"Listar usuários\", function () { // cenário com erro \r",
+							"    pm.expect(pm.response.text()).to.include(\"sem usúarios cadastrados\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code é 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Status code é 200\", function () {\r",
+							"    pm.response.to.have.status(400); // outro response code\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quantidade\": 1,\r\n    \"usuarios\": [\r\n        {\r\n            \"nome\": \"Fulano da Silva\",\r\n            \"email\": \"beltrano@qa.com.br\",\r\n            \"password\": \"teste\",\r\n            \"administrador\": \"true\",\r\n            \"_id\": \"0uxuPY0cbmQhpEz1\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}usuarios",
+					"host": [
+						"{{local}}usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Colsultar  usuário por id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Listar usuários\", function () { // validar caminho feliz\r",
+							"    pm.expect(pm.response.text()).to.include(\"5zb6HHvS1kb45Rwf\");\r",
+							"});\r",
+							"pm.test(\"Listar usuários\", function () { // cenário com erro \r",
+							"    pm.expect(pm.response.text()).to.include(\"Usuário não encontrado\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code é 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Status code é 200\", function () {\r",
+							"    pm.response.to.have.status(400); // outro response code\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Fabricio da Silva\",\r\n    \"email\": \"the@qa.com.br\",\r\n    \"password\": \"teste\",\r\n    \"administrador\": \"true\",\r\n    \"_id\": \"5zb6HHvS1kb45Rwf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}usuarios/5zb6HHvS1kb45Rwf",
+					"host": [
+						"{{local}}usuarios"
+					],
+					"path": [
+						"5zb6HHvS1kb45Rwf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar usuários",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validação de cadastro\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Cadastro realizado com sucesso\");\r",
+							"});\r",
+							"pm.test(\"Status code é 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () { // usuário já existente\r",
+							"    pm.expect(pm.response.text()).to.include(\"Este email já está sendo usado\");\r",
+							"});\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Fabricio da Silva\",\r\n    \"email\": \"the@qa.com.br\",\r\n    \"password\": \"teste\",\r\n    \"administrador\": \"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}usuarios",
+					"host": [
+						"{{local}}usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar usuário cadastrado",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validação de alteração\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Registro alterado com sucesso\");\r",
+							"});\r",
+							"pm.test(\"Status code é 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Criação de novo usuário\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Cadastro realizado com sucesso\");\r",
+							"});\r",
+							"pm.test(\"Status code é 201\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							"pm.test(\"Usuário existente\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Este email já está sendo usado\");\r",
+							"});\r",
+							"pm.test(\"Status code é 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Faberto da Silva\",\r\n    \"email\": \"terwe@qa.com.br\",\r\n    \"password\": \"teste\",\r\n    \"administrador\": \"true\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}usuarios/FYd7PXlrniRXq2JB",
+					"host": [
+						"{{local}}usuarios"
+					],
+					"path": [
+						"FYd7PXlrniRXq2JB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir usuário",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Erro ao excluir usuário\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Não é possível realizar\");\r",
+							"});\r",
+							"pm.test(\"Usuário exluído\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Registro excluído com sucesso\");\r",
+							"});\r",
+							"pm.test(\"Status code é 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Status code é 400\", function () { // Usuário com carrinho cadastrado\r",
+							"    pm.response.to.have.status(400);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}usuarios/FVwVv39P5gwxkMLk",
+					"host": [
+						"{{local}}usuarios"
+					],
+					"path": [
+						"FVwVv39P5gwxkMLk"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
