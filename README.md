@@ -1,6 +1,6 @@
 <span align="center">
 
-#  *Repositório do curso EBAC: Profissional Engenheiro da Qualidade de Software*
+#  *Repositório do curso EBAC: Profissional Engenheiro de Qualidade de Software*
 
 </span>
 
