@@ -1,14 +1,14 @@
 <span align="center">
 
-#  *Bem-vindos ao repositório: Profissional Engenheiro da Qualidade de Software*
+#  *Repositório do curso EBAC: Profissional Engenheiro da Qualidade de Software*
 
 </span>
 
 <span align="justify">
 
-## Neste local, você encontrará os projetos elaborados durante a minha formação.
+## Exercícios e projetos elaborados durante a minha formação.
 
-O profissional engenheiro de qualidade de software é responsável por planejar e coordenar atividades de testes ao longo do desenvolvimento de um software, revisar especificações de qualidade e documentos de projetos técnicos para fornecer respostas relevantes em tempo hábil.
+O engenheiro de qualidade de software é responsável por planejar e coordenar atividades de testes ao longo do desenvolvimento de um software, revisar especificações de qualidade e documentos de projetos técnicos para fornecer respostas relevantes em tempo hábil.
 
 
 </span>
