@@ -23,7 +23,7 @@
             E a senha "abcdje"
             Então deve exibir uma mensagem de boas vindas "Usuário ou senha inválida"
 
-            Esquena do Cenário: Autenticar multiplos usuário
+            Esquena do Cenário: Autenticar multiplos usuários
             Quando eu digitar o <usuário>
             E a <senha>
             Então deve exibir a <mensagem> de sucesso
