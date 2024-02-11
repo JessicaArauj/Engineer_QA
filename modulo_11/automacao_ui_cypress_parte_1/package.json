@@ -1,0 +1,15 @@
+{
+  "name": "automacao_ui_cypress_parte_1",
+  "version": "1.0.0",
+  "description": "Aula prática modulo 11 - Automação de UI com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jessica Teixeira Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  }
+}
