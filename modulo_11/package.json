@@ -1,12 +1,15 @@
 {
   "name": "modulo_11",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automacao de UI com Cypress Parte 1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Jessica Teixeira Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  }
 }
