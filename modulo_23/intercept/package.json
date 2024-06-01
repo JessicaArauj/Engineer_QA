@@ -11,5 +11,6 @@
   "dependencies": {
     "cypress": "^13.6.3",
     "puppeteer": "^21.9.0"
-  }
+  },
+  "keywords": []
 }
