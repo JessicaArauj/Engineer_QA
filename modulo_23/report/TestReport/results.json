@@ -1,0 +1,328 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "114.0.5735.289",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "env": {
+      "MY_ENV": "prd",
+      "ebacStoreVersion": "v2"
+    },
+    "projectRoot": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report",
+    "projectName": "report",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report\\cypress\\downloads",
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report",
+    "fixturesFolder": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 63660,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "D:\\node.exe",
+    "resolvedNodeVersion": "20.12.2",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\Jessi\\Desktop\\Profissional_Engenheiro_Da_Qualidade_De_Software\\modulo_23\\report\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "125",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "125.0.6422.141"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 114,
+        "name": "electron",
+        "path": "",
+        "version": "114.0.5735.289"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\Jessi\\AppData\\Local\\Cypress\\Cache\\13.6.3\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.6.3",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.6.3",
+  "endedTestsAt": "2024-06-02T11:43:58.302Z",
+  "osName": "win32",
+  "osVersion": "10.0.22000",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 9,
+        "passes": 9,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-06-02T11:43:25.487Z",
+        "end": "2024-06-02T11:43:49.432Z",
+        "duration": 23945
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/Jessi/Desktop/Profissional_Engenheiro_Da_Qualidade_De_Software/modulo_23/report/cypress/e2e/categoriesTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "categoriesTest",
+        "name": "categoriesTest.cy.js",
+        "relative": "cypress\\e2e\\categoriesTest.cy.js"
+      },
+      "stats": {
+        "duration": 23946,
+        "endedAt": "2024-06-02T11:43:49.436Z",
+        "failures": 0,
+        "passes": 9,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-06-02T11:43:25.490Z",
+        "suites": 1,
+        "tests": 9
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 8691,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation Celular Motorola"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1960,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation Óculos feminino"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1977,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation acessórios"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1909,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation colar"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1827,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation oculos infantil"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1817,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation Headfones"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1959,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation Books"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1852,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation Bags"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1885,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Category Validation Clothes"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-06-02T11:43:51.166Z",
+        "end": "2024-06-02T11:43:58.310Z",
+        "duration": 7144
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/Jessi/Desktop/Profissional_Engenheiro_Da_Qualidade_De_Software/modulo_23/report/cypress/e2e/searchListTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "searchListTest",
+        "name": "searchListTest.cy.js",
+        "relative": "cypress\\e2e\\searchListTest.cy.js"
+      },
+      "stats": {
+        "duration": 7134,
+        "endedAt": "2024-06-02T11:43:58.302Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-06-02T11:43:51.168Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 7124,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Must Research Products and Have a Value Listed"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-06-02T11:43:25.490Z",
+  "totalDuration": 31080,
+  "totalFailed": 0,
+  "totalPassed": 10,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 2,
+  "totalTests": 10
+}

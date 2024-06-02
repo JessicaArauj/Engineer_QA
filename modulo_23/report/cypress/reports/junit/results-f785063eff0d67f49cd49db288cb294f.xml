@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.594" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-06-02T11:56:08" tests="0" file="cypress\e2e\categoriesTest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Categories" timestamp="2024-06-02T11:56:08" tests="9" time="23.589" failures="0">
+    <testcase name="Categories Category Validation Celular Motorola" time="8.042" classname="Category Validation Celular Motorola">
+    </testcase>
+    <testcase name="Categories Category Validation Óculos feminino" time="1.824" classname="Category Validation Óculos feminino">
+    </testcase>
+    <testcase name="Categories Category Validation acessórios" time="1.876" classname="Category Validation acessórios">
+    </testcase>
+    <testcase name="Categories Category Validation colar" time="1.878" classname="Category Validation colar">
+    </testcase>
+    <testcase name="Categories Category Validation oculos infantil" time="1.848" classname="Category Validation oculos infantil">
+    </testcase>
+    <testcase name="Categories Category Validation Headfones" time="2.108" classname="Category Validation Headfones">
+    </testcase>
+    <testcase name="Categories Category Validation Books" time="1.786" classname="Category Validation Books">
+    </testcase>
+    <testcase name="Categories Category Validation Bags" time="1.756" classname="Category Validation Bags">
+    </testcase>
+    <testcase name="Categories Category Validation Clothes" time="2.078" classname="Category Validation Clothes">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+{
+  "name": "cy-reports",
+  "version": "1.0.0",
+  "description": "Cypress Reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "report": "npm run mergeJsonReport && npm run generateReport",
+    "mergeJsonReport": "npx mochawesome-merge ./mochawesome-report/*.json -o ./mochawesome-report/result.json",
+    "generateReport": "npx marge ./mochawesome-report/result.json -o ./mochawesome-report",
+    "e2e": "cypress run --env allure=true",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
+    "test:allure": "npm run e2e && npm run report:allure"
+  },
+  "author": "jessicaarauj",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.3",
+    "cypress-html-reporter": "^11.0.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "dotenv": "^16.4.5",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "puppeteer": "^21.9.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}

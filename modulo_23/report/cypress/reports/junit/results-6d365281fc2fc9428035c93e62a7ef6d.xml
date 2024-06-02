@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.890" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-06-02T11:56:34" tests="0" file="cypress\e2e\searchListTest.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Categories" timestamp="2024-06-02T11:56:34" tests="1" time="5.887" failures="0">
+    <testcase name="Categories Must Research Products and Have a Value Listed" time="5.769" classname="Must Research Products and Have a Value Listed">
+    </testcase>
+  </testsuite>
+</testsuites>

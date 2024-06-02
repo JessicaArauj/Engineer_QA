@@ -1,0 +1,78 @@
+{
+    "success": true,
+    "categories": [
+        {
+            "_id": "6655e476f3e5753f9a4ef2ff",
+            "name": "Celular Motorola",
+            "photo": "https://tm.ibxk.com.br/2024/03/26/26130902871144.webp?ims=328x",
+            "createdAt": "2024-05-28T14:04:38.605Z",
+            "updatedAt": "2024-05-28T14:04:38.605Z",
+            "__v": 0
+        },
+        {
+            "_id": "6655e034f3e5753f9a4ef2a2",
+            "name": "Óculos feminino",
+            "photo": "https://www.safira.com.br/cdn/imagens/produtos/det/oculos-de-grau-feminino-vogue-vo5378l-2907-53-quadrado-ad8e873eea79779de9831fe6b1ccb10e.jpg",
+            "createdAt": "2024-05-28T13:46:28.338Z",
+            "updatedAt": "2024-05-28T14:42:32.479Z",
+            "__v": 0
+        },
+        {
+            "_id": "6655dd342eb91bd9fabdf9c9",
+            "name": "acessórios",
+            "photo": "https://guiafranquiasdesucesso.com/wp-content/uploads/2016/09/acessorios.jpg",
+            "createdAt": "2024-05-28T13:33:40.402Z",
+            "updatedAt": "2024-05-28T13:33:40.402Z",
+            "__v": 0
+        },
+        {
+            "_id": "6655d90201b71fbfc84d0819",
+            "name": "colar",
+            "photo": "https://guiafranquiasdesucesso.com/wp-content/uploads/2016/09/acessorios.jpg",
+            "createdAt": "2024-05-28T13:15:46.811Z",
+            "updatedAt": "2024-05-28T13:15:46.811Z",
+            "__v": 0
+        },
+        {
+            "_id": "66553e430e75c699806e2ed4",
+            "name": "oculos infantil",
+            "photo": "https://images.tcdn.com.br/img/img_prod/1148844/oculos_de_sol_infantil_menina_640_pkpr_pink_1707_1_1e3845b1454cf03ab655feb4e87fad0d.jpg",
+            "createdAt": "2024-05-28T02:15:31.960Z",
+            "updatedAt": "2024-05-28T12:19:52.200Z",
+            "__v": 0
+        },
+        {
+            "_id": "6655277a0e75c699806e2c4d",
+            "name": "Headfones",
+            "photo": "https://www.wb.com.br/upload/produto/imagem/fone-de-ouvido-headphone-bluetooth-sem-fio-over-ear-wb-gyda-com-100-horas-de-bateria-case-incluso-25.webp",
+            "createdAt": "2024-05-28T00:38:18.992Z",
+            "updatedAt": "2024-05-28T00:38:18.992Z",
+            "__v": 0
+        },
+        {
+            "_id": "6654cd4e0e75c699806e29fb",
+            "name": "Books",
+            "photo": "https://www.londonlibrary.co.uk/images/20210408113322.JPG.webp",
+            "createdAt": "2024-05-27T18:13:34.564Z",
+            "updatedAt": "2024-05-27T18:13:34.564Z",
+            "__v": 0
+        },
+        {
+            "_id": "66508b8723adf6ec33ab72da",
+            "name": "Bags",
+            "photo": "https://constance.vtexassets.com/arquivos/ids/2193937-800-auto?v=638278952014870000&width=800&height=auto&aspect=true",
+            "createdAt": "2024-05-24T12:43:51.463Z",
+            "updatedAt": "2024-05-24T12:43:51.463Z",
+            "__v": 0
+        },
+        {
+            "_id": "663d7e827294efad05afd216",
+            "name": "Clothes",
+            "photo": "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/clothes1_1-1715306113460.webp",
+            "createdAt": "2024-05-10T01:55:14.131Z",
+            "updatedAt": "2024-05-10T01:55:14.131Z",
+            "__v": 0
+        }
+    ],
+    "totalCategory": 9
+}
