@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "appium:deviceName": "ebac-qa",
+  "appium:platformVersion": "9.0",
+  "appium:appPackage": "com.woocommerce.android",
+  "appium:appActivity": ".ui.main.MainActivity",
+  "appium:appWaitActivity": "com.woocommerce.android.ui.login.LoginActivity"
+}

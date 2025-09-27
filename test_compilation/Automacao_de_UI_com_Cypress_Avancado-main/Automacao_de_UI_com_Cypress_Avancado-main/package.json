@@ -1,0 +1,19 @@
+{
+  "name": "automacao_de_ui_com_cypress_avancado",
+  "version": "1.0.0",
+  "description": "Scripts avancado de automação de UI utilizando Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0"
+  },
+  "devDependencies": {
+    "cypress-log-to-output": "^1.1.2",
+    "dotenv": "^16.0.3"
+  }
+}

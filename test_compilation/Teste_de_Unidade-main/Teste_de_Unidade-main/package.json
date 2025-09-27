@@ -1,0 +1,16 @@
+{
+  "name": "teste_de_unidade",
+  "version": "1.0.0",
+  "description": "Scripts de teste de unidade",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0",
+    "sinon": "^15.0.4"
+  }
+}

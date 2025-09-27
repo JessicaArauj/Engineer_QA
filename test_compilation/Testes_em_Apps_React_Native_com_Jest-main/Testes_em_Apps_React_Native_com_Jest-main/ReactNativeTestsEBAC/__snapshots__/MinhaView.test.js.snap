@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verificar renderização 1`] = `"<MinhaView/>"`;

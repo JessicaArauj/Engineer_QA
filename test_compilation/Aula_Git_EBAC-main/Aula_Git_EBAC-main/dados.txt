@@ -1,0 +1,10 @@
+Dados do aluno
+
+-Primeiro Nome: Jessica Teixeira Araujo
+-Profissão: Estagiária superior
+-Cidade: Belém-Pa
+-O que faz nas horas vaga: Ler
+-Feedback sobre o curso Qualidade de Software: Até o momento estou gostando bastante.
+-Feedback sobre a plataforma de estudo da EBAC: Sinto falta da versão visual preta, pois, estudo de madrugada e ajuda a minha visão fotofobia.
+
+Obrigado!!!

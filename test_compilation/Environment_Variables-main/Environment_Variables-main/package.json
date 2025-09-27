@@ -1,0 +1,21 @@
+{
+  "name": "environment_variables",
+  "version": "1.0.0",
+  "description": "Script de teste com variáveis de ambiente e cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "testEnvCyOpen": "CYPRESS_HOST=http://localhost npx cypress open",
+    "testEnvCmdCyOpen": "npx cypress open --env HOST=http://localhost"
+  },
+  "keywords": [],
+  "author": "JessicaTeixeiraAraujo",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "cypress-dotenv": "^2.0.0"
+  }
+}

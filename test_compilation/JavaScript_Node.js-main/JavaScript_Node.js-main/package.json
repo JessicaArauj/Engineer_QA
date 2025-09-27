@@ -1,0 +1,26 @@
+{
+  "name": "javascript_node",
+  "version": "1.0.0",
+  "description": "Projetos em JavaScript para Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessicaTeixeiraAraujo/JavaScript_Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessicaTeixeiraAraujo/JavaScript_Node.js/issues"
+  },
+  "homepage": "https://github.com/JessicaTeixeiraAraujo/JavaScript_Node.js#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^1.10.2"
+  }
+}

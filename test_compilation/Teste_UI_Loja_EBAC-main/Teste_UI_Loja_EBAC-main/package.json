@@ -1,0 +1,22 @@
+{
+  "name": "teste_ui_loja_ebac",
+  "version": "1.0.0",
+  "description": "Reposositório para o teste realizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --browser chorme",
+    "cy:open": "npx cypress open",
+    "cy:report": npx cypress run --record --key ab3df7e3-98f7-4fee-b335-c49704268fe3
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.8.1",
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}

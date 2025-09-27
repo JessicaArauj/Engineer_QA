@@ -1,0 +1,32 @@
+public class MediaIdade {
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        int idade1, idade2, idade3;
+        int media, i, contaIdade = 0;
+        
+        for(i=0; i<3; i++){
+          
+          contIdade++;
+          // recebe a idade1
+           System.out.println("Digite" + contIdade + "idade:");
+           int idade1 = leitor.nextInt();
+          // recebe a idade2
+           System.out.println("Digite" + contIdade + "idade:");
+           int idade2 = leitor.nextInt();
+           // recebe a idade3
+           System.out.println("Digite" + contIdade + "idade:");
+           int idade3 = leitor.nextInt();
+           
+           // calcula a média
+           media = (idade1 + idade2 + idade3) / 3;
+           System.out.println("A média da idade" + contIdade + " é " + media);
+          
+          // mostra a nota do aluno
+            if( (media >= 0) && (media <26) ){
+                System.out.println("Jovem");
+            } else if((media >= 26) && (media <61)){
+                System.out.println("Adulta");
+            } else if(media < 60){
+                System.out.println("Idosa");
+            }
+        }
